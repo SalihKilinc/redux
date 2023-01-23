@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 
 
-export const localeSlice = createSlice({
+export const localeSlice = createSlice({  // createSlice reduxx elemani
     name: "locale",
     initialState :{
         lang : "en",

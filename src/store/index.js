@@ -9,3 +9,8 @@ export default configureStore({
         locale: localeSlice
     }
 })
+
+// uygulamayi sarmallamak icin yaptik 
+// thenme sliceyi aldik ilk
+// locale kismini aldik sonra
+// buradaki verileri store olarek app js e gonderebiliriz 

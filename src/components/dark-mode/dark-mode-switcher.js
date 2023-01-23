@@ -11,7 +11,7 @@ const dispatch =useDispatch();
     <div>
         <Form.Check 
         type="switch"
-        id="custom-switch"
+        id="dmSwitch"
         label="Dark Mode"
         checked={darkMode}
         onChange={ ()=>  dispatch(setDarkMode(!darkMode))}

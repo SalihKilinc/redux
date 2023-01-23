@@ -11,6 +11,7 @@ export default configureStore({
 })
 
 // uygulamayi sarmallamak icin yaptik 
-// thenme sliceyi aldik ilk
+// thenme sliceyi aldik ilk sonrada locale-slice yi aldik
 // locale kismini aldik sonra
 // buradaki verileri store olarek app js e gonderebiliriz 
+// themeSlice export deafault calsi ve obje ile import edilemez

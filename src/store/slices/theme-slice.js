@@ -16,3 +16,5 @@ setDarkMode:(state,action)=>{        // reducer kendisi bir obje zaten
 
 export const {setDarkMode} =themeSlice.actions   // themeSlice.actions u satDarkModa attik 
 export default themeSlice.reducer;
+
+// importlara dikkat et export default her zaman bir tane olur ve import edilmez bu sayfada 

@@ -1,2 +1,4 @@
 1- slices : reducer bolumlrini bir arada tutan kavramin ismi 
 2-Create slice redux toolkitten import edilir
+3- index.js bizim state olarak cagirdigimiz yerdir
+4- Cagiralacak veriler slice icinede hazirlanir

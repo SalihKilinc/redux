@@ -13,7 +13,7 @@ const dispatch =useDispatch();  // state alarak index jsi elde ettik
         <Form.Check 
         type="switch"
         id="dmSwitch"
-        label="Dark Mode"
+        label={darkMode ? "Light Mode" : "Dark Mode"}
         checked={darkMode}  /*themeSlicede yaptigimiz darkMode false idi buraya false geldi ilk deger */
         onChange={ ()=>  dispatch(setDarkMode(!darkMode))}  /* disPatch her zaman bir action bekler  yani darkMOde aldik cunku actionu darkMode atadik
          */

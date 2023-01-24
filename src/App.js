@@ -4,17 +4,18 @@ import DarkModeSwitcher from './components/dark-mode/dark-mode-switcher'
 import store from "./store"
 import "bootstrap/dist/css/bootstrap.min.css";
 import LangSwitcher from './components/lang-switcher/lang-switcher';
-
+import "./App.css"
+import { $t } from './helpers/locale-helper';
 const App = () => {
 
 
  
-const darkMode = useSelector(state=>state.theme.darkMode);
+const darkMode = useSelector(state=>state.theme.darkMode); // dark modu harekete gecirdik asgida ternary yaptik 
 return (
-    <div className={darkMode ? "dark" : ""}>
+    <div className={darkMode  ? "dark" : ""}>  
       <DarkModeSwitcher/>
       <LangSwitcher/>
-      <h1>Hello World</h1>
+      <h1> {$t("Hello World")}</h1>
     </div>
 )
 }

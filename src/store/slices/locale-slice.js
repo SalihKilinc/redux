@@ -5,7 +5,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const localeSlice = createSlice({  // createSlice reduxx elemani
     name: "locale",
     initialState :{  // bos degerleri siraladik istersek buraya farkli degerlerde yazabiliriz farkli projeler icin
-        lang : "en",
+        lang :langs[0],   //
         currency:"usd"
     },
     reducers :{

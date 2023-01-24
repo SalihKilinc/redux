@@ -1,7 +1,9 @@
 import React from "react";
 import { Dropdown } from "react-bootstrap";
-import { langs } from "../../helpers/locale-helper";
+import { langs ,getCurrentLang } from "../../helpers/locale-helper";
 const LangSwitcher = () => {
+const currentLang = getCurrentLang();
+
   return (
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
@@ -18,6 +20,6 @@ const LangSwitcher = () => {
   );
 };
 export default LangSwitcher;
-
+// drapdown menuyude aldik
 // langs i map ile cevirdik
-// basli ulke  degerlerini item ile aldik
+// baslik ulke  degerlerini item ile aldik bunlari {} ile yaptik yani js

@@ -23,3 +23,5 @@ export default App
 
 //provider react reduxtan gelir ve yapiyi sarmallamamizi saglar
 // store sayfasi index js icindeki verileri buray tasir
+// app css e dark mode yaptik burdan cagirdik 
+// merkezi datadan cekmek icin useSeletor kullandik yine

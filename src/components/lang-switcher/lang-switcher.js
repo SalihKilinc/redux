@@ -18,3 +18,6 @@ const LangSwitcher = () => {
   );
 };
 export default LangSwitcher;
+
+// langs i map ile cevirdik
+// basli ulke  degerlerini item ile aldik
